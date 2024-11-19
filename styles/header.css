@@ -1,0 +1,52 @@
+.header {
+    padding: 10px 10px 10px;
+    display: flex;
+}
+
+.header__avatar {
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.header__description {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* .header__description_text{} */
+
+.header__description_text_color_gray {
+    color: gray;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__link_color_pink {
+    color: rgb(233, 112, 233);
+}
+
+.header__link_color_lightblue {
+    color: rgb(66, 129, 150);
+}
+
+.header__link_color_darkblue {
+    color: darkblue;
+}
+
+.header__link_color_blue {
+    color: rgb(95, 95, 216);
+}
+
+.header__description_disclaimer {
+    font-size: 10px;
+    border-top: 1px solid gray;
+    padding-top: 5px;
+}
+
+.header__description_disclaimer_color_gray {
+    color: gray;
+}

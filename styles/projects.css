@@ -1,0 +1,25 @@
+.cards__projects_list li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cards__projects_bg-color_peach {
+    background-color: #f3dabc;
+}
+
+.cards_projects_list_button {
+    background: salmon;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    text-decoration: none;
+}
+.cards_projects_list_button:hover {
+    color: black;
+}
+.cards_projects_list_button:active {
+    color: blue;
+}

@@ -1,0 +1,35 @@
+.cards__schedule {
+    padding-bottom: 20px;
+}
+
+.cards__schedule_bg-color_blue {
+    background-color: #bce8f3;
+}
+
+.cards__schedule_table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.cards__schedule_table th {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.cards__schedule_table tr {
+    border-bottom: 1px solid #868988;
+}
+
+.cards__schedule_table tr:last-child {
+    border-bottom: none;
+}
+
+.cards__schedule_table td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.cards__schedule_table tr:nth-child(even) {
+    font-weight: bold;
+}
