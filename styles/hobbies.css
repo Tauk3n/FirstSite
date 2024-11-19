@@ -1,0 +1,9 @@
+/* .cards__hobbies {} */
+
+.cards__hobbies li {
+    margin-left: -20px;
+}
+
+.cards__hobbies_bg-color_violet {
+    background-color: #c3a6f7;
+}
