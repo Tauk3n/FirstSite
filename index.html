@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Site</title>
+  <link rel="stylesheet" href="/styles/container.css">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/cards.css">
+  <link rel="stylesheet" href="/styles/hobbies.css">
+  <link rel="stylesheet" href="/styles/schedule.css">
+  <link rel="stylesheet" href="/styles//projects.css">
+  <link rel="stylesheet" href="/styles/feedback.css">
+  <link rel="stylesheet" href="/styles/body.css">
+  <link rel="stylesheet" href="/styles/@media.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img class="header__avatar" src="/styles/madara.jpg" alt="Фото профиля">
+      <div class="header__description">
+        <h2>Кислов Денис</h2>
+        <p class="header__description_text header__description_text_color_gray">Описание меня как личности.</p>
+        <p class="header__description_text header__description_text_color_gray">Краткое описание занятий и хобби.</p>
+        <h3>Список социальных сетей:</h3>
+        <a href="https://www.instagram.com/tauk3n" class="header__link header__link_color_pink">Instagram*</a>
+        |
+        <a href="https://t.me/Tauk3n" class="header__link header__link_color_lightblue">Telegram</a>
+        |
+        <a href="https://github.com/Tauk3n" class="header__link header__link_color_darkblue">GitHub</a>
+        |
+        <a href="https://vk.com/top3lestnici" class="header__link header__link_color_blue">ВКонтакте</a>
+        <p class="header__description_disclaimer header__description_disclaimer_color_gray">* организация, запрещенная в
+          РФ Lorem ipsum dolor sit amet consectetur
+          adipisicing elit.
+          Repellat, magni.</p>
+      </div>
+    </header>
+    <section class="cards">
+      <div class="cards__block cards__hobbies cards__hobbies_bg-color_violet">
+        <h2>Мои хобби</h2>
+        <ol class="hobbies">
+          <li>Игры</li>
+          <li>SCP рассказы</li>
+          <li>Frontend</li>
+        </ol>
+      </div>
+      <div class="cards__block cards__schedule cards__schedule_bg-color_blue">
+        <h2>Расписание</h2>
+        <table class="cards__schedule_table">
+          <thead class="cards__schedule_thead">
+            <th>Занятие</th>
+            <th>Время</th>
+            <th>Промежуток</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Спать</td>
+              <td>8 часов</td>
+              <td>23:00 - 07:00</td>
+            </tr>
+            <tr>
+              <td>Умыться</td>
+              <td>30 минут</td>
+              <td>07:00 - 07:30</td>
+            </tr>
+            <tr>
+              <td>Поездка на работу</td>
+              <td>1 час</td>
+              <td>07:30 - 08:30</td>
+            </tr>
+            <tr>
+              <td>Работа</td>
+              <td>12 часов</td>
+              <td>09:00 - 21:00</td>
+            </tr>
+            <tr>
+              <td>Поездка домой</td>
+              <td>1 час</td>
+              <td>21:00 - 22:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="cards__block cards__projects cards__projects_bg-color_peach">
+        <h2>Мои проекты</h2>
+        <ul class="cards__projects_list">
+          <li>Этот сайт</li>
+          <li><a href="https://github.com/Tauk3n" class="cards_projects_list_button">Остальные проекты</a></li>
+        </ul>
+      </div>
+      <div class="feedback">
+        <form action="/" class="feedback__form">
+          <h3>Связаться со мной</h3>
+          <div class="feedback__form-contacts">
+            <div class="feedback__form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            <div class="feedback__form-group">
+              <label for="email">Ваш GitHub:</label>
+              <input type="email" id="email" placeholder="Вставьте ссылку на GitHub">
+            </div>
+          </div>
+          <div class="feedback__form-group">
+            <label for="message">Задайте вопрос</label>
+            <textarea id="message" rows="5" cols="30" placeholder="Я бы хотел спросить о..."></textarea>
+            <p><button class="feedback__form_button">Отправить вопрос</button></p>
+          </div>
+        </form>
+      </div>
+    </section>
+</body>
+
+</html>
